@@ -1,0 +1,97 @@
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+}
+ul{
+    list-style-type: none;
+}
+.slogan{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.list-info li{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+	border: 2px solid #000;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.send-email{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.info{
+    
+    background-size: unset;
+    background-image: url(https://ngs.ru/text/longread/2018/09/13/65381271/images/tild6135-6638-4332-b335-633231623039__longbg.jpg);
+}
+.about-us{
+    padding: 100px;
+    background-color: rgb(172,180,166)
+    
+  
+}
+.about-us ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about-us li{
+    margin-top: 25px;
+}
+.send-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.GETINTOUCH{
+    background-color: rgb(238,238,240);
+}
+.GETINTOUCH li{
+    margin-top: 10px;
+    background-color: ;
+}
+.GETINTOUCH h2{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.massage{
+
+    width: 620px;
+    height: 100px;
+}
+.subscribe{
+    width: 620px;
+    height: 25px;
+}
+
+
+
