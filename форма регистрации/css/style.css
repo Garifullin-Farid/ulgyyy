@@ -1,0 +1,80 @@
+body{
+    padding-top: 150px;
+    background-color: rgb(38, 49, 66);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+form{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.regist input{
+    width: 90%;
+    height: 35px;
+    background-color: rgb(50,66,91);
+    border: 2px solid rgb(77,93,118);
+}
+label{
+    color:rgb(238,251,255);
+    margin: 15px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+.logo{
+    
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(to top , rgb(159,254,210),rgb(45,213,230));
+    box-shadow: 0 1px 20px 0 rgb(69 90 100 / 8%);
+
+}
+.regist{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(50,66,91);
+}
+.nregist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.regist h2{
+    color:rgb(238,251,255);
+    margin-top: 45px;
+}
+.regist p{
+    color: rgb(93,174,177);
+}
+.regist button{
+    width: 334px;
+    height: 45px;
+    background-color: #5bc9c5;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: top;
+    margin-top: 40px;
+    color: white;
+}
+
+.Check{
+    position: absolute;
+    display: none;
+
+}
+.checkbox{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    background-image: url(/css/img/icons8-пустой-чекбокс-50.png)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
