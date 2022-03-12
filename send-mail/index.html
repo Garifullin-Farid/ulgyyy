@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Шаблон страницы</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/init.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="form">
+			<form action="#" id = "form" class="form_body">
+				<h1 class="form_title">Отправка данных на почту</h1>
+				<div class="form_item">
+					<label for = "formName" class="form_label">Имя*:</label>
+					<input id = "formName" type="text" name="name" class="form_input">
+					<label for = "formEmail" class="form_label">Email*:</label>
+					<input id = "formEmail" type="email" name="Email" class="form_input">
+					<div class="form_item">
+						<label for = "formMessage" class="form_label">Сообщение*:</label>
+						<textarea name="message" id="formMessage" class="form_input"></textarea>
+					</div>
+					<div class="form_item">
+						<div class="form_label">Прикрепить фото</div>
+						<div class="file">
+							<div class="file_items">
+								<input id="form_image" accept=".jpg, .png " type="file" name="image" class="file_input">
+								<div class="file_button">Выбрать</div>
+							</div>
+							<div id="form_preview" class="file_preview"></div>
+						</div>
+					</div>
+					<button type="submit" class="form_button">отправить</button>
+				</div>
+			</form>
+
+
+		</div>
+	</div>
+
+	<!-- Здесь подключаем последнию версию JQuery (проверяйте какую версию сейчас используйте) и наш скрипт по работе с JQuery -->
+	<script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
