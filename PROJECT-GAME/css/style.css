@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Just In The Firestorm"; 
+    src: url("../fonts/just_in_the_firestorm.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.intro {
+    max-height: 100%;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.intro__title {
+    margin: 0;
+
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.video {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 56.25%;
+}
+
+.video__media {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Kinfo{
+    display: flex;
+   
+}
+.Ktext{
+    height: 400px;
+    width: 250px;
+    margin-left: 20px;
+    transition: 0.5s;
+    background-color: azure;
+    
+}
+.Ktext_Active{
+    font-size: 100px;
+    height: 700px;
+    width: 800px;
+}
+.page {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+.page_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.screen{
+    flex: 1 0 100%;
+    position: relative;
+}
+.form_input{
+    height: 40px;
+    width: 400px;
+    margin-right: 25px;
+}
+.form_div{
+    display: flex;
+    flex-direction: row;
+}
+.form_text{
+    height: 200px;
+    width:  833px;
+}
+form{
+    color: #fff;
+}
+.Ftext{
+    margin-top: 25px;
+}
