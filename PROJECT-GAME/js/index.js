@@ -1,5 +1,12 @@
+$('.menu-btn').on('click', function(e) {
+    e.preventDefault();
+    $('.menu').toggleClass('menu_active');
+  })
+  
 $('.Ktext').on('click',function(e){
-    $(this).toggleClass('Ktext_Active')
+    $(this).toggleClass('Ktext_Active');
+    $($(this).children()[1]).toggleClass('kimg_Active');
+   console.log($(this).children()[1])
 });
 let pageSlider = new Swiper('.page',{
     wrapperClass: 'page_wrapper',

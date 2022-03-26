@@ -4,9 +4,50 @@
     font-style: normal; 
     font-weight: normal; 
     }
+
+.menu {
+    position: fixed;
+    left: 0;top: 0;
+    z-index: 99;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: 0.5s;
+    transform: translateX(-100%);
+}
+.menu_active {
+    transform: translateX(0%);
+}
+.menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+}
+.menu-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 25%;
+    position: absolute;
+    right: -35px;
+    top: 10px;
+}
 body {
     margin: 0;
     font-family: Tahoma, sans-serif;
+}
+h1{
+    font-family: "Just In The Firestorm";
 }
 
 .intro {
@@ -31,7 +72,7 @@ body {
 
 .intro__title {
     margin: 0;
-
+    
     font-size: 45px;
     color: #fff;
     text-align: center;
@@ -60,10 +101,14 @@ body {
     left: 0;
 }
 .Kinfo{
+    max-width: 98%;
     display: flex;
    
 }
 .Ktext{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
     height: 400px;
     width: 250px;
     margin-left: 20px;
@@ -71,10 +116,21 @@ body {
     background-color: azure;
     
 }
+
+.kimg{
+    height: 200px;
+    width: 200px;
+    transition: 0.5s;
+}
+.kimg_Active{
+    height: 300px;
+    width: 300px;
+    
+}
 .Ktext_Active{
-    font-size: 100px;
-    height: 700px;
-    width: 800px;
+    font-size: 60px;
+    height: 600px;
+    width: 700px;
 }
 .page {
     position: fixed;
@@ -112,4 +168,19 @@ form{
 }
 .Ftext{
     margin-top: 25px;
+}
+.file_input{
+    cursor: pointer;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit input{
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 35px;
+    width: 450px;
+    background-color: #939ae3;
 }
