@@ -4,7 +4,12 @@
     font-style: normal; 
     font-weight: normal; 
     }
-
+@font-face {
+        font-family: "Andala"; 
+        src: url("../fonts/Andala.otf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        }
 .menu {
     position: fixed;
     left: 0;top: 0;
@@ -21,6 +26,11 @@
 .menu_active {
     transform: translateX(0%);
 }
+.Tinfo{
+    font-family: "Andala";
+    padding: 80px; 
+}
+
 .menu-list {
     display: flex;
     justify-content: space-around;
@@ -109,14 +119,19 @@ h1{
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 420px;
     width: 250px;
     margin-left: 20px;
     transition: 0.5s;
     background-color: azure;
-    
-}
+    align-items: center
 
+}
+.Ktext p {
+    margin: 18px;
+    font-family: "Andala";
+    font-size: 80%;
+}
 .kimg{
     height: 200px;
     width: 200px;
@@ -128,9 +143,15 @@ h1{
     
 }
 .Ktext_Active{
-    font-size: 60px;
     height: 600px;
     width: 700px;
+}
+.Ktext_Active h2{
+    margin-bottom: 0;
+}
+.Ktext_Active p{
+    font-size: 150%;
+    
 }
 .page {
     position: fixed;
@@ -183,4 +204,8 @@ form{
     height: 35px;
     width: 450px;
     background-color: #939ae3;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
