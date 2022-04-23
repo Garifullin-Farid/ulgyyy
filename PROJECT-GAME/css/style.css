@@ -23,6 +23,12 @@
     transition: 0.5s;
     transform: translateX(-100%);
 }
+
+.bot{
+    width: 30px;
+    height: 30px;
+}
+
 .menu_active {
     transform: translateX(0%);
 }
@@ -46,7 +52,7 @@
 .menu-btn {
     width: 30px;
     height: 30px;
-    background-color: white;
+    background-color: transparent;
     border-radius: 25%;
     position: absolute;
     right: -35px;
@@ -116,6 +122,9 @@ h1{
    
 }
 .Ktext{
+    border: inset;
+    border-color: black;
+    border-radius: 25px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -147,6 +156,7 @@ h1{
     width: 700px;
 }
 .Ktext_Active h2{
+    padding-bottom: 15px;
     margin-bottom: 0;
 }
 .Ktext_Active p{
